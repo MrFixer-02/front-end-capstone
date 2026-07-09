@@ -32,9 +32,10 @@ Environment setup in progress. Core repo files (README, LICENSE, .gitignore, CLA
 Run these commands to confirm the toolchain is set up correctly:
 
 ```bash
-node -v      # Node.js LTS installed
+node -v            # Node.js LTS installed
 git --version
-gh --version # GitHub CLI, used to create/manage this repo
+gh --version        # GitHub CLI, used to create/manage this repo
+npm run check-node  # confirms the running Node version satisfies package.json's engines field
 git log --oneline
 ```
 

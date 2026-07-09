@@ -1,0 +1,13 @@
+{
+  "name": "front-end-capstone",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Setup repository for the Frontend AI Engineering capstone track.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "check-node": "node scripts/check-node.js"
+  },
+  "license": "MIT"
+}
