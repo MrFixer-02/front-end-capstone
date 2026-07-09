@@ -27,6 +27,19 @@ AI assistant behavior and rules for this repo are defined in [`CLAUDE.md`](./CLA
 
 Environment setup in progress. Core repo files (README, LICENSE, .gitignore, CLAUDE.md) have been added and the workflow has been verified with a small commit history.
 
+## Verify the Environment
+
+Run these commands to confirm the toolchain is set up correctly:
+
+```bash
+node -v      # Node.js LTS installed
+git --version
+gh --version # GitHub CLI, used to create/manage this repo
+git log --oneline
+```
+
+The last command should show at least 3 commits following the Conventional Commits format (`docs:`, `chore:`, etc.).
+
 ## Success Criteria
 
 - [x] Repo initialized with README, LICENSE, .gitignore, and CLAUDE.md
