@@ -8,8 +8,8 @@ This repo specifically exists to prove that my frontend AI engineering environme
 
 ## Tech Stack
 
-- **Runtime:** Node.js (LTS)
-- **Version control:** Git + GitHub
+- **Runtime:** Node.js (LTS) — pinned via `package.json` `engines.node` and enforced by `npm run check-node`
+- **Version control:** Git + GitHub (`gh` CLI)
 - **AI tooling:** Claude Code / Cursor
 - **Editor:** VS Code (or equivalent)
 
@@ -25,7 +25,7 @@ AI assistant behavior and rules for this repo are defined in [`CLAUDE.md`](./CLA
 
 ## Current Status
 
-Environment setup in progress. Core repo files (README, LICENSE, .gitignore, CLAUDE.md) have been added and the workflow has been verified with a small commit history.
+Environment setup in progress. Core repo files (README, LICENSE, .gitignore, CLAUDE.md, package.json, scripts/check-node.js) have been added and the toolchain has been verified: Node LTS is confirmed via `npm run check-node`, and the workflow is validated by a Conventional Commits history.
 
 ## Verify the Environment
 
